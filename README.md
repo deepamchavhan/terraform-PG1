@@ -25,7 +25,7 @@ It creates a **VPC**, **Public & Private Subnets**, **EC2 Instance**, and **RDS 
 
 ## 🚀 How to Deploy
 
-```bash
+
 terraform init
 terraform plan
 terraform apply -auto-approve
