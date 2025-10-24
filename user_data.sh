@@ -1,0 +1,5 @@
+#!/bin/bash
+sudo apt update -y
+sudo amazon-linux-extras install nginx1 -y
+sudo systemctl start nginx
+echo "<h1>Hello from Terraform EC2</h1>" | sudo tee /usr/share/nginx/html/index.html
